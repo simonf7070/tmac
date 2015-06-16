@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using DAL;
 
 namespace tmac.Controllers
 {
@@ -16,6 +13,12 @@ namespace tmac.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+
+            using (var db = new BlogContext())
+            {
+                db.Blogs.Add(new Blog {Name = "Hello World"});
+                db.SaveChanges();
+            }
 
             return View();
         }

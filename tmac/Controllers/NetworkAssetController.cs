@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using DAL.DomainEvents;
 using tmac.Models;
 
 namespace tmac.Controllers
@@ -55,6 +56,7 @@ namespace tmac.Controllers
             if (ModelState.IsValid)
             {
                 Session["NetworkAsset"] = model;
+                DomainEvents.Raise(new NetworkAssetUpdated { Name = model.Name } );
                 return RedirectToAction("Index");
             }
             return View(model);

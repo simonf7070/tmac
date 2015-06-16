@@ -24,3 +24,9 @@ c:\users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\Newtonsoft.Js
 c:\users\simon\documents\visual studio 2013\Projects\tmac\tmac\obj\Debug\tmac.dll
 c:\users\simon\documents\visual studio 2013\Projects\tmac\tmac\obj\Debug\tmac.pdb
 C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\obj\Debug\tmac.csprojResolveAssemblyReference.cache
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\DAL.dll
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\EntityFramework.dll
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\EntityFramework.SqlServer.dll
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\DAL.pdb
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\EntityFramework.xml
+C:\Users\simon\documents\visual studio 2013\Projects\tmac\tmac\bin\EntityFramework.SqlServer.xml
